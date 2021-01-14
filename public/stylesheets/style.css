@@ -4,5 +4,23 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.img-hero {
+  width: 100%;
+}
+
+.hero-banner {
+  margin: 25px auto;
+}
+
+.about-me > button {
+  padding: 1.2rem 3.5rem;
+  font-size: 1.1rem;
+}
+
+.content,
+.about-me {
+  margin: 3rem auto 5rem;
 }
