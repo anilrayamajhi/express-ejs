@@ -24,3 +24,36 @@ a {
 .about-me {
   margin: 3rem auto 5rem;
 }
+
+.social {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000000;
+  margin-right: 2px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-button {
+  margin-right: 3px;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-button > .fa-instagram {
+  color: rgb(187 45 98);
+}
+
+.social-button > .fa-facebook-f {
+  color: blue;
+}
+
+.hero-banner {
+  height: 500px;
+  overflow-y: hidden;
+}
